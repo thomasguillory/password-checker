@@ -1,0 +1,25 @@
+@import 'base'
+@import 'common'
+
+body
+  +transition(background-color 1s ease)
+  &.neutral
+    background-color: #376a82
+  &.bad
+    background-color: #c23333
+  &.medium
+    background-color: #db7d3a
+  &.good
+    background-color: #378241
+
+input
+  +adjust-font-size-to(30px,3)
+  display: block
+  width: span(2 of 3)
+  height: rhythm(6,30px)
+  margin: rhythm(6,30px) auto 0
+
+.crack-time-display
+  +adjust-font-size-to(30px,3)
+  margin: rhythm(3,30px) auto 0
+  text-align: center

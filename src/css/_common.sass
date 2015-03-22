@@ -1,0 +1,28 @@
+*
+    +box-sizing(border-box)
+
++establish-baseline()
+html
+    // Override establish-baseline, sorry Compass
+    // Set global font-size in px to avoid a bug on webkit textarea
+    font-size: $base-font-size
+
+// For sticky footer
+html, body
+    height: 100%
+
+body
+    //+debug-vertical-alignment()
+    +adjust-font-size-to(16px,2)
+    //font-family: 'Open Sans', sans-serif
+    //color: $body_font_color
+
+input, textarea, button
+    //font-family: 'Open Sans', sans-serif
+
+a, button
+    //color: $link_color
+    text-decoration: none
+
+    &:hover
+        text-decoration: underline

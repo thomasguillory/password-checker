@@ -1,0 +1,37 @@
+{
+  "name": "password-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.3.15",
+    "async": "^0.9.0",
+    "browserify": "^9.0.3",
+    "coffeeify": "^1.0.0",
+    "express": "^4.12.2",
+    "fb-flo": "^0.4.0",
+    "gulp": "^3.8.11",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-minify-html": "^1.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-slim": "0.0.13",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglifyjs": "^0.6.1",
+    "gulp-util": "^3.0.4",
+    "imagesloaded": "^3.1.8",
+    "jade": "^1.9.2",
+    "pretty-hrtime": "^1.0.0",
+    "require-dir": "^0.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^2.4.0",
+    "zxcvbn": "git://github.com/buttercoin/node-zxcvbn.git#master"
+  },
+  "dependencies": {}
+}
