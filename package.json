@@ -33,5 +33,7 @@
     "watchify": "^2.4.0",
     "zxcvbn": "git://github.com/buttercoin/node-zxcvbn.git#master"
   },
-  "dependencies": {}
+  "dependencies": {
+    "moment": "^2.9.0"
+  }
 }
