@@ -30,10 +30,10 @@
     "pretty-hrtime": "^1.0.0",
     "require-dir": "^0.1.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^2.4.0",
-    "zxcvbn": "git://github.com/buttercoin/node-zxcvbn.git#master"
+    "watchify": "^2.4.0"
   },
   "dependencies": {
-    "moment": "^2.9.0"
+    "moment": "^2.9.0",
+    "zxcvbn": "git://github.com/thomasguillory/zxcvbn"
   }
 }
