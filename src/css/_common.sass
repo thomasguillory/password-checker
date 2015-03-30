@@ -12,7 +12,7 @@ html, body
     height: 100%
 
 body
-    //+debug-vertical-alignment()
+    +debug-vertical-alignment()
     +adjust-font-size-to(16px,2)
     //font-family: 'Open Sans', sans-serif
     //color: $body_font_color
@@ -21,8 +21,6 @@ input, textarea, button
     //font-family: 'Open Sans', sans-serif
 
 a, button
-    //color: $link_color
-    text-decoration: none
+    color: inherit
+    text-decoration: underline
 
-    &:hover
-        text-decoration: underline

@@ -1,11 +1,24 @@
 doctype html
 html ng-app="app"
   head
+    link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,700,600,400|Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'
     link rel="stylesheet" type="text/css" href="/css/bundle.css"
   body ng-controller="AppController" ng-class="ranking"
 
-    input type="password" ng-model="password"
-    .crack-time-display
-      | {{crackTimeDisplay}}
+    .container
+      h1 Password Checker
+      input type="password" ng-model="password" placeholder="Entrez votre mot de passe"
+      .crack-time-display
+        | {{crackTimeDisplay}}
+
+      .footer
+        .left
+          | Powered by 
+          a href='https://github.com/dropbox.zxcvbn' zxcvbn
+        .center
+          | Created by
+          a href='https://www.dashlane.com' Dashlane Password Manager
+        .right
+          p This site is for educational use. Due to limitations of the technology involved, its results cannot always be accurate. Your password will not be transferred over the internet.
 
     script type="text/javascript" src="/js/bundle.js"

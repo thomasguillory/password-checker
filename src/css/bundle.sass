@@ -12,14 +12,63 @@ body
   &.good
     background-color: #378241
 
+  font-family: 'Open Sans', sans-serif
+
+.container
+  +container( rhythm(100) )
+  margin-top: rhythm(4)
+  margin-bottom: rhythm(4)
+  border: solid 1px #fff
+  text-align: center
+
+h1
+  +adjust-font-size-to(72px,8)
+  +rhythm(2,0,0,2,72px)
+  font-family: 'Yanone Kaffeesatz', sans-serif
+  text-transform: uppercase
+  font-weight: 700
+  color: rgba(255,255,255,0.6)
+
 input
-  +adjust-font-size-to(30px,3)
-  display: block
-  width: span(2 of 3)
-  height: rhythm(6,30px)
-  margin: rhythm(6,30px) auto 0
+  +adjust-font-size-to(48px,4)
+  +rhythm(2,0,0,2,48px)
+  width: span(6 of 8)
+  margin: 0 auto
+  padding: rhythm(0.5,48px) rhythm(1.5,48px) 
+  background-color: rgba(255,255,255,0.6)
+  border: solid 1px #fff
+
+  &:focus
+    outline: solid 5px #fff
 
 .crack-time-display
   +adjust-font-size-to(30px,3)
   margin: rhythm(3,30px) auto 0
   text-align: center
+
+.footer
+  +clearfix
+  border-top: solid 1px #fff
+  background-color: rgba(0,0,0,0.85)
+  color: rgba(255,255,255,0.85)
+  padding: rhythm(2) span(1 of 12)
+
+  .left
+    +span(3 of 10)
+    +adjust-font-size-to(16px,1.5)
+    text-align: left
+
+  .center
+    +span(4 of 10)
+    +adjust-font-size-to(16px,1.5)
+    text-align: center
+
+    a
+      display: block
+
+  .right
+    +span(3 of 10 last)
+    text-align: right
+
+    p
+      +adjust-font-size-to(10px,1.5)
