@@ -1,4 +1,4 @@
-Zendesk Help Center
+Password Checker
 ===================
 
 1. Description
